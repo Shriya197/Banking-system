@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+
+    z-index: 9;
+    
+    padding:20px 50px 5px;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+    display: flex;
+    background-color: #A24D5A ;
+    height: 110px;
+}
+.logo{
+    
+    float: left;
+    margin-top: 10px;
+    margin-top: 0;
+    width: 50%;
+    }
+.logo h2{
+    font-size: 50px;
+    color: ghostwhite;
+}
+.menu-bar{
+    float: right;
+    width: 50%;
+    margin-top: 0;
+    padding: 5px;
+}
+
+.menu-bar  a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: blueviolet;
+    font-weight: bold;
+    font-family: cosmic,sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: white;
+    padding: 5px;
+}
+.menu-bar   a:hover{
+    color: blue;
+    background-color: #4C151D ;
+    transition: all 1s ease;
+}
+.center{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.image{
+    width: 60%;
+    height: 700px;
+    margin-right: 0;
+    padding-rigtt: 0;
+
+}
+.image img{
+    padding-right: 0;
+    margin-right: 0;
+    width: 800px;
+}
+.content{
+    width: 40%;
+    height: 500px;
+}
+.content h2{
+    text-align: center;
+    background-color:#A24D5A ;
+    width: 210px;
+    margin-left: 190px;
+    padding: 10px;
+    margin-top: 150px;
+    color : ghostwhite;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.content h1{
+    text-align: center;
+    background-color:#A24D5A ;
+    width: 400px;
+    margin-left: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    color : ghostwhite;
+    border-radius: 20px;
+     font-size: 50px;
+    }
+.content h3{
+   text-align: center;
+    background-color:#A24D5A ;
+    width: 450px;
+    margin-left: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    color : ghostwhite;
+    }
+
+.content button{
+
+    background-color:blueviolet;
+    margin-left: 220px;
+    margin-top: 30px;
+    height: 40px;
+    width: 100px; 
+    color: white;
+    font-size: 15px;
+}    
+
+    
+footer{
+    background-color:#A24D5A ;
+}
+
+footer .social{
+    text-align: center;
+
+
+}
+footer .social h2{
+    padding-top: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: cosmic, sans-serif;
+    
+
+}
+footer .social a{
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 30px;
+    padding : 15px;
+}
+footer .social a i{
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 30px;
+    padding : 15px;
+    color: white;
+}
+
+footer .social a i: hover{
+    color: black;
+}
+footer .social p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
